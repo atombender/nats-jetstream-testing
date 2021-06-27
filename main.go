@@ -18,7 +18,7 @@ func main() {
 		PushMode              bool    `long:"push-mode" description:"Use push"`
 		PublishRate           float64 `long:"publish-rate" description:"Publish rate" default:"1"`
 		NumConsumers          int     `long:"consumers" description:"Number of consumers" default:"10000"`
-		NumPublishers         int     `long:"publishers" description:"Number of publishers" default:"10"`
+		NumPublishers         int     `long:"publishers" description:"Number of publishers" default:"1"`
 		NumWorkersPerConsumer int     `long:"workers-per-consumer" description:"Number of workers per consumer" default:"1"`
 	}
 
