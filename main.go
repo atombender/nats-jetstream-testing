@@ -163,7 +163,7 @@ func main() {
 							continue
 						}
 
-						if !erroring {
+						if erroring {
 							erroring = false
 							atomic.AddInt64(&erroringCount, -1)
 						}
